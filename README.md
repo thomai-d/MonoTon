@@ -1,9 +1,10 @@
 # MonoTon
 Arduino based step sequencer and software-synth
 
-![MonoTon1](https://github.com/thomai-d/MonoTon/img/MonoTon1.png)
+![MonoTon1](https://github.com/thomai-d/MonoTon/blob/master/img/MonoTon1.png)
 
-[Here](https://www.youtube.com/watch?v=V6P4GdR-m2A) you can see the synth in action.
+[![Youtube](http://img.youtube.com/vi/V6P4GdR-m2A/0.jpg)](http://www.youtube.com/watch?v=V6P4GdR-m2A)
+[(Audio only)](https://github.com/thomai-d/MonoTon/blob/master/media/MonoTon1.mp3).
 
 ## Features
 * 8 instruments (Kick, Hat, Snare, Shaker, Clap, Noise, Sine, Square)
@@ -24,3 +25,6 @@ Arduino based step sequencer and software-synth
 * The analog inputs are quite noisy. De-noising uses quite much cpu.
 * Don't ever solder this much wires by hand. PCB services are your friend.
 * Prefer [DDS](http://interface.khm.de/index.php/lab/interfaces-advanced/arduino-dds-sinewave-generator/) over an R2R ladder.
+
+## Open bugs / flaws
+* Although the output is buffered by an opamp, the sound sounds distorted when using the PC's line in. If I conntect it directly to the speakers, the sound is quite clear.
