@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{690e25c6-f1b8-403a-94eb-e8ded1dd1d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{fb8bf395-a4b8-4d62-86fd-bd4d4c7766e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Envelope">
+      <UniqueIdentifier>{69d22e2d-d259-4183-ba36-354703324183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{288e0a9d-55a1-4792-80a8-ceaed2d0ef5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HAL &amp; Config">
+      <UniqueIdentifier>{ddbcb1f5-8381-48a2-a651-e8fc93b28a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{9607f282-5a7f-4fe1-a507-a6a3d826f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequencing">
+      <UniqueIdentifier>{38e66af3-09be-48fe-8f6c-073a01ace795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Synths">
+      <UniqueIdentifier>{2691d6eb-0f6b-4026-a08f-34100d20323f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timers">
+      <UniqueIdentifier>{3e295c6d-bcac-4d79-95b2-fc3e2e0c2702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIController">
+      <UniqueIdentifier>{1efddfb1-354d-4f95-b3ba-4fedce4a3958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MonoTon.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configuration.h">
+      <Filter>HAL &amp; Config</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.MonoTon.vsarduino.h" />
+    <ClInclude Include="Synthesis\IInstrument.h">
+      <Filter>Synths</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis\ISampleProvider.h">
+      <Filter>Synths</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis\ITriggerable.h">
+      <Filter>Envelope</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis\Square.h">
+      <Filter>Synths</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\HAL.h">
+      <Filter>HAL &amp; Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Output8.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\ProgressBar.h" />
+    <ClInclude Include="Control\REnvelope.h">
+      <Filter>Envelope</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Sequencer.h">
+      <Filter>Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis\Sampler.h">
+      <Filter>Synths</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SyncTimer.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="System\TimerThree.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Rotary.h" />
+    <ClInclude Include="Hardware\MCP23S17.h" />
+    <ClInclude Include="System\Macros.h">
+      <Filter>HAL &amp; Config</Filter>
+    </ClInclude>
+    <ClInclude Include="System\PerformanceTrace.h" />
+    <ClInclude Include="System\Stopwatch.h" />
+    <ClInclude Include="Hardware\SeqCtrlDriver.h">
+      <Filter>Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\SequencerDriver.h">
+      <Filter>Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\AudioOut.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Synthesis\InstrumentRack.h" />
+    <ClInclude Include="System\Utility.h" />
+    <ClInclude Include="Hardware\Seg7.h" />
+    <ClInclude Include="Synthesis\WaveTableSynth.h">
+      <Filter>Synths</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\SequencerController.h">
+      <Filter>Sequencing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Synthesis\Square.cpp">
+      <Filter>Synths</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Output8.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\ProgressBar.cpp" />
+    <ClCompile Include="Control\REnvelope.cpp">
+      <Filter>Envelope</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\Sequencer.cpp">
+      <Filter>Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="Synthesis\Sampler.cpp">
+      <Filter>Synths</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SyncTimer.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="System\TimerThree.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\HAL.c" />
+    <ClCompile Include="Hardware\Rotary.cpp" />
+    <ClCompile Include="Hardware\MCP23S17.cpp" />
+    <ClCompile Include="System\PerformanceTrace.cpp" />
+    <ClCompile Include="System\Stopwatch.cpp" />
+    <ClCompile Include="Hardware\SeqCtrlDriver.cpp">
+      <Filter>Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\SequencerDriver.cpp">
+      <Filter>Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\AudioOut.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Synthesis\InstrumentRack.cpp" />
+    <ClCompile Include="System\Utility.cpp" />
+    <ClCompile Include="Synthesis\WaveTableSynth.cpp">
+      <Filter>Synths</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SequencerController.cpp">
+      <Filter>Sequencing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
