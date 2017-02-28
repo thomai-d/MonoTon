@@ -3,6 +3,8 @@ Arduino based step sequencer and software-synth
 
 ![MonoTon1](https://github.com/thomai-d/MonoTon/blob/master/img/MonoTon1.png)
 
+![MonotonCore](https://github.com/thomai-d/MonoTon/blob/master/img/Core.png)
+
 [![Youtube](http://img.youtube.com/vi/V6P4GdR-m2A/0.jpg)](http://www.youtube.com/watch?v=V6P4GdR-m2A)
 [(Audio only)](https://github.com/thomai-d/MonoTon/blob/master/media/MonoTon1.mp3).
 
